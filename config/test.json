@@ -1,0 +1,26 @@
+{
+  "env": "development",
+  "port": 4040,
+  "bodyLimit": "100kb",
+  "corsHeaders": ["Origin, X-Requested-With, Content-Type, Accept"],
+  "corsOrigin": ["*", "http://www.crickettech.com"],
+  "database": {
+    "host": "mongodb://mongo/cricketTech-development",
+    "port": "27017",
+    "mongooseDebug": true
+  },
+  "jwt": {
+    "privateKey" : "someDevKey",
+    "tokenIssuer" : "Expert Opinion",
+    "tokenExpiry" : "60d"
+  },
+  "hashKey": "SomeRandomKey",
+  "domainPrefix": "http://www.crickettech.com",
+  "emailFrom" :"info@cartoonmango.com",
+  "amazonAWS":{
+    "accessKeyId":"",
+    "secretAccessKey":"",
+    "bucketName":""
+  },
+  "autoBackup": false
+}

@@ -1,0 +1,8 @@
+{
+  "defaults": {
+    "minName": 1,
+    "maxName": 100,
+    "minAdd": 1,
+    "maxAdd": 100
+  }
+}
